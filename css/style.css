@@ -130,5 +130,56 @@ header {
     bottom: -36px;
     right: 57px;
   }
+  .page-wrapper{
+    background-color: #e3e6e7;
+  }
+  
+  section {
+  
+  width: 100%;
+  
+  display: flex;
+   
+  padding: 50px;
+  
+  }
+  
+  main section h2{
+  
+  display: flex;
+  
+  justify-content: flex-end;
+  
+  align-items: flex-start;
+  
+  width: 20%;
+  
+  color: #02075d;
+  
+  font-size: 36px;
+  
+  padding-right: 10px;
+  
+  border-right: 4px solid #02075d;
+  
+  }
+  
+  #about p{
+  
+  display: flex;
+  
+  justify-content: flex-end;
+  
+  align-items: center;
+  
+  width: 80%;
+  
+  font-size: 20px;
+  
+  color: #02075d;
+  
+  margin-left: 50px;
+  
+  }
 
 
