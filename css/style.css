@@ -98,7 +98,37 @@ header {
   
   cursor: pointer;
   
-  color: #4db0b1;
+  color: #02075d;
   
   }
+  .hero-banner {
+  
+    width: 100%;
+    
+    height: 300px;
+    
+    display: flex;
+    
+    justify-content: flex-end;
+    
+    align-items: flex-end;
+    
+    background: url("../images/hero_bg.jpg");
+    background-size: cover;
+    position: relative;
+    
+    }
+   
+  .my-image{
+    width: 250px;
+
+    height: 250px;
+    border: 1px solid #02075d;
+
+    border-radius: 50%;
+    position: absolute;
+    bottom: -36px;
+    right: 57px;
+  }
+
 
