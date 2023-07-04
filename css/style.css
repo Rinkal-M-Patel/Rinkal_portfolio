@@ -256,4 +256,103 @@ header {
     border-bottom: 4px solid #4db0b1;
     padding: 5px;
   }
-
+  @media only screen and (max-width:1000px){
+    section {
+      width: 100%;
+      display: block;
+    }
+    #about p {
+      
+     
+      width: 100%;
+      
+      color: #02075d;    margin-left: 0px;
+  }
+    .abc {
+      margin-left: 0px;
+      
+      width: 100%;
+      
+  }
+    main section h2 {
+      display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    color: #02075d;
+    font-size: 36px;
+    padding: 10px;
+    border-bottom: 4px solid #02075d;
+    border-right: 0;
+    margin-bottom: 10px;
+  }
+  .contact ul {
+    width: 100%;
+    display: inline;
+    
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .contact ul li {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-left: 0px;
+  }
+  }
+    @media only screen and (max-width:600px){
+      header {
+        width: 100%;
+        padding: 0px;
+        display: inline-block;
+      }
+      header h1 {
+        text-align: center;
+        
+        width: 100%;
+        
+        
+    }
+      section {
+        width: 100%;
+        display: block;
+        padding: 10px 10px;
+    }
+      .abc{
+        width:100%;
+        margin-left: 0px;
+        grid-template-rows: repeat(5,300px);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five";
+    
+      }
+      main section h2 {
+        display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      color: #02075d;
+      font-size: 36px;
+      padding: 10px;
+      border-bottom: 4px solid #02075d;
+      border-right: 0;
+  }
+  .contact ul {
+    width: 100%;
+    display: inline;
+    
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .contact ul li {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-left: 0px;
+  }
+    }
