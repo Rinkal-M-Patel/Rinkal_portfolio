@@ -237,5 +237,23 @@ header {
     background-image: url(../images/portfolio-4.png);
   }
 
-
+  .contact ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 50px;
+  }
+  
+  .contact ul li{
+    margin: 0px 10px;
+    display: inline;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .contact ul li a {
+    border-bottom: 4px solid #4db0b1;
+    padding: 5px;
+  }
 
