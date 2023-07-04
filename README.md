@@ -43,7 +43,7 @@ N/A
 
 ## Demo
 
-Insert gif or link to demo
+https://rinkal-m-patel.github.io/Rinkal_portfolio/
 
 
 ## Run Locally
