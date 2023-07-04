@@ -182,4 +182,60 @@ header {
   
   }
 
+  .abc {
+    margin-left: 50px;
+    display: grid;
+    width:80%;
+    grid-template-rows: 400px 250px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "one one "
+    "two three "
+    "four five"
+    ;
+  }
+  .categoryGridArea {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+    border: 3px solid #4db0b1;
+}
+.heading {
+  background-color: rgb(77 176 177);
+  margin-bottom: 15px;
+  color: #02075d;
+  font-size: 18px;
+  width: fit-content;
+  padding: 10px;
+}
+.heading p{
+  font-size: 15px;
+}
+  
+  #one{
+    grid-area: one;
+    background-image: url(../images/portfolio_1.png);
+  }
+  #two{
+    grid-area: two;
+    background-image: url(../images/rayna.png);
+  }
+  #three{
+    grid-area: three;
+    background-image: url(../images/techno.png);
+  }
+  #four{
+    grid-area: four;
+    background-image: url(../images/sass.png);
+  }
+  #five{
+    grid-area: five;
+    background-image: url(../images/portfolio-4.png);
+  }
+
+
 
