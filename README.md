@@ -16,9 +16,11 @@ The person who wants to check and learn about CSS grid styling and logical struc
 
 ## Screenshots
 
-![Desktop View](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Desktop View](./images/desktop.png)
 
-![Mobile View](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![tablet View](./images/tablet.png)
+
+![Mobile View](./images/mobile.png)
 
 
 ## Lessons Learned
