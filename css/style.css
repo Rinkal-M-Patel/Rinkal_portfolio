@@ -13,6 +13,8 @@ body {
   
   width: 100%;
 }
+
+/* -------------header css---------------- */
   
 header {
   
@@ -27,6 +29,9 @@ header {
   align-items:flex-start;
   
   background-color: var(--color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
   
   }
   
@@ -105,6 +110,10 @@ header {
   color: #fff;
   
   }
+
+  /* -------------End header css---------------- */
+
+  /* -------------Hero Banner css---------------- */
   .hero-banner {
   
  
@@ -129,6 +138,10 @@ header {
     bottom: -36px;
     right: 57px;
   }
+
+  /* -------------End Hero banner css---------------- */
+
+  /* -------------main section css---------------- */
   .page-wrapper{
     background-color: #e3e6e7;
   }
@@ -181,7 +194,8 @@ header {
   
   }
 
-  .abc {
+  /* -------------Wotk section css---------------- */
+  .work_section {
     margin-left: 50px;
     display: grid;
     width:80%;
@@ -193,7 +207,7 @@ header {
     "four five"
     ;
   }
-  .abc a{
+  .work_section a{
     text-decoration: none;
   }
   .categoryGridArea {
@@ -239,6 +253,11 @@ header {
     background-image: url(../images/portfolio-4.png);
   }
 
+  /* -------------End work section css---------------- */
+
+
+  /* -------------conatct section css---------------- */
+
   .contact ul {
     width: 80%;
     display: flex;
@@ -258,6 +277,16 @@ header {
     border-bottom: 4px solid var(--green-color);
     padding: 5px;
   }
+
+  /* -------------End contact section css---------------- */
+
+   /* -------------End main section css---------------- */
+
+
+
+   /* -------------Media query start---------------- */
+
+
   @media only screen and (max-width:1000px){
     section {
       width: 100%;
@@ -270,7 +299,7 @@ header {
       
       color:  var(--color);;    margin-left: 0px;
   }
-    .abc {
+    .work_section {
       margin-left: 0px;
       
       width: 100%;
@@ -320,7 +349,7 @@ header {
         display: block;
         padding: 10px 10px;
     }
-      .abc{
+      .work_section{
         width:100%;
         margin-left: 0px;
         grid-template-rows: repeat(5,300px);
@@ -358,3 +387,5 @@ header {
     margin-left: 0px;
   }
     }
+
+    /* -------------End media query---------------- */
